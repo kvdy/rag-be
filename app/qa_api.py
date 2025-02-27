@@ -5,7 +5,10 @@ from app.models import documents
 from app.database import database
 from openai import OpenAI
 
-client = OpenAI(api_key="#########")
+client = OpenAI(api_key="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")
+
+
+
 import numpy as np
 from scipy.spatial.distance import cosine
 

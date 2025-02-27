@@ -9,3 +9,6 @@ metadata = MetaData()
 
 engine = create_engine(DATABASE_URL)
 metadata.create_all(engine)
+
+
+
