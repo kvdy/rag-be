@@ -1,0 +1,5 @@
+fastapi==0.70.1
+asyncpg==0.23.0
+databases==0.5.2
+openai==0.6.0
+uvicorn==0.15.0
