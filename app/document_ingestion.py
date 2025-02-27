@@ -5,7 +5,7 @@ from app.models import documents
 from app.database import database
 from openai import OpenAI
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="your_api_key")
 import numpy as np
 
 router = APIRouter()
